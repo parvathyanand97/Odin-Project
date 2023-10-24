@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+}
+
+.intro, .ingredients, .directions {
+    margin: 0 auto;
+    width: 60%;
+}
