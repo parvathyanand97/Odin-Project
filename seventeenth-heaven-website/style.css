@@ -1,0 +1,95 @@
+body {
+    margin: 0 0 0 0;
+}
+
+
+.navigation-bar {
+    height: 54px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #C2DFF3;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.links {
+
+    flex-direction: row;
+    align-content: flex-end;
+
+}
+
+a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo {
+    padding-left: 10px;
+}
+
+.heading-banner {
+    height: 70vh;
+    background-color: rgba(2, 44, 65, 0.7);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.heading-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    flex-wrap: wrap;
+    background-color: gold;
+    height: 100%;
+    width:50%;
+}
+.heading-image{
+    width: 50%;
+    background-image: url("../seventeenth-heaven-website/assets/seventeen-11th-mini-album-seventeenth-heaven-album-v0-4crbhw12z7qb1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+.title-1 {
+    font-family: "DynaPuff", sans-serif;
+    color: rgb(14, 126, 245);
+    font-size: 72px;
+}
+h1 {
+    margin: 0;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+button {
+    background-color: rgb(14, 126, 245);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+
